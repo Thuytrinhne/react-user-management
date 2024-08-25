@@ -1,0 +1,54 @@
+.login-container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding-top: 40px;
+	gap: 10px;
+	.title {
+		h4 {
+			text-align: center;
+			font-weight: 700;
+		}
+	}
+	.text {
+		font-weight: 600;
+		i {
+			position: absolute;
+			top: 11px;
+			right: 8px;
+		}
+	}
+	button {
+		margin-top: 25px;
+	}
+	button:disabled {
+		cursor: not-allowed;
+		pointer-events: all !important;
+	}
+	.back {
+		text-align: center;
+		margin-top: 20px;
+		font-weight: 600;
+		cursor: pointer;
+		&:hover {
+			text-decoration: underline;
+		}
+		i {
+			font-size: 13px;
+			padding-right: 5px;
+		}
+	}
+	input {
+		background-color: #eeeff0;
+	}
+
+	.pass-container {
+		position: relative;
+		i {
+			position: absolute;
+			top: 11px;
+			right: 8px;
+			cursor: pointer;
+		}
+	}
+}

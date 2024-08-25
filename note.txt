@@ -1,0 +1,27 @@
+- install scss -> viết css gọn hơn, chuẩn chung của mấy ông dev
+- install react-boostrap -> không bị mất js như boostrap thường
+- instal axious để gọi api 
+
++ file js ~ jsx 
++ file reportWebVitals.js vs setupTests.js để test hiệu suất gì đó 
++ interceptors ~ middleware
++ nên wrap css lại 
++ lodash npm  để xử lý bài toán mảng bộ nhớ trỏ đến chung bị thay đổi 
++ k nên để ảnh ở public và nên import anh rvaof k dùng đường dẫn (để webpack biên dịch trước j đó)
++ goij serrver để sort và search và filter chứ k xử lý ở client  -> js search input api call too much 
+ex: .container 
+  {
+      .btn{
+        color:red;
+      }
+  }
+API: https://reqres.in/
+- ko nên dựa vào button login diasable mà k check lại xem email và password đã được nhaajo chưa
+-> vì button có thể bị hack sửa html bởi user 
+
+- non-breaking space : &nbsp; -> HTML ENTITY 
+- refresh page -> [required] call api to get user infors,  send token to server to get user information again, don't save in local storage 
+- when value of create context change, it will trigger change for components that use it 
+- useEffect call after render done 
+- check authorize both FE, BE (private routes)
+- in development: error-overlay -> error boundaries not work  but in production will work 
